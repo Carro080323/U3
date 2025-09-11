@@ -1,0 +1,41 @@
+body {
+    background-color: #f6f6f6;
+}
+
+header {
+    display: flex;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black; /* Svart text i alla lägen */
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: black; /* Svart text */
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+    background-color: lightgreen; /* Lightgreen bakgrund */
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+.nav-link:hover {
+    color: black; /* Håller texten svart vid hover */
+    text-decoration: underline;
+}
+
+.nav-link:active {
+    color: black; /* Svart text även när den är aktiv */
+}
